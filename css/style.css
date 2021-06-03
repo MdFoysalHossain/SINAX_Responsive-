@@ -1,0 +1,747 @@
+/*==== START OF COMMON CSS ====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    margin: 00;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button:focus {
+    outline: 0;
+}
+
+input:focus{
+	outline: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bg_cover{
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.custom_container{
+    padding: 0 70px;
+}
+
+.theme_button {
+    font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+	background: #f26957;
+	padding: 15px 50px;
+	text-transform: uppercase;
+    transition: all .1s linear;
+}
+.theme_button:hover {
+    color: #fff;
+    /* font-size: 16px; */
+    /* padding: 13.5px 46px; */
+}
+
+.area_header{
+    padding-top: 130px;
+    /* background: #f26957; */
+    padding-bottom: 40px;
+}
+.area_header .row .col-lg-12 span{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    color: #878787;
+}
+.area_header .row .col-lg-12 h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    color: #222222;
+}
+.area_header .row .col-lg-12 p{
+    font-weight: 400;
+    font-size: 14px;
+    /* padding: 0 200px; */
+    color: #666666;
+}
+
+/*==== END OF COMMON CSS ====*/
+
+/*=============================== 
+        NAVBAR CSS START
+=================================*/
+
+.main_navbar {
+	background: rgba(0,0,0,.5);
+    padding: 0 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999999999999999999999;
+}
+.main_navbar .navbar-nav{}
+.main_navbar .navbar-nav .nav-item{}
+
+.main_navbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 48px 15px;
+}
+.main_navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #f26957;
+    transition: all .3s linear;
+}
+.toggle_bars button {
+	background: transparent;
+	border: 0;
+	color: #fff;
+	margin-left: 30px;
+}
+
+
+/*=============================== 
+        NAVBAR CSS END
+=================================*/
+
+
+
+
+
+
+/*===============================
+        BANNER CSS START
+=================================*/
+
+.banner_area{
+    position: relative;
+}
+.slider_active{}
+.single_slide{}
+.banner_overlay{}
+.slider_content{
+    padding-top: 365px;
+    padding-bottom: 245px;
+}
+.slider_content h4 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+    line-height: 0;
+    padding-bottom: 23px;
+    text-transform: uppercase;
+}
+.slider_content h1{
+    color: #fff;
+	font-size: 92px;
+	font-weight: 700;
+    padding-bottom: 23px;
+}
+
+
+/* .banner_area .left_slide_btn{
+	position: absolute;
+	top: 50%;
+    left: 0;
+	transform: translateY(-50%);
+	margin-left: 75px;
+    z-index: 99999999;
+    background: transparent;
+    border: 0px;
+}
+
+.banner_area .left_slide_btn i{
+    font-size: 60px;
+    color: #fff;
+}
+
+.banner_area .right_slide_btn{
+	position: absolute;
+	top: 50%;
+    right: 0;
+	transform: translateY(-50%);
+	margin-right: 75px;
+    z-index: 99999999;
+    background: transparent;
+    border: 0px;
+}
+
+.banner_area .right_slide_btn i{
+    font-size: 60px;
+    color: #fff;
+} */
+
+
+
+
+.banner_area .right_slide_btn{
+	position: absolute;
+	top: 50%;
+    left: 0;
+	transform: translateY(-50%);
+	margin-left: 75px;
+    z-index: 99999999;
+    background: transparent;
+    border: 0px;
+}
+
+.banner_area .right_slide_btn i{
+    font-size: 60px;
+    color: #fff;
+}
+
+.banner_area .left_slide_btn{
+	position: absolute;
+	top: 50%;
+    right: 0;
+	transform: translateY(-50%);
+	margin-right: 75px;
+    z-index: 99999999;
+    background: transparent;
+    border: 0px;
+}
+
+.banner_area .left_slide_btn i{
+    font-size: 60px;
+    color: #fff;
+}
+
+
+
+/*===============================
+        BANNER CSS END
+=================================*/
+
+
+/*================================
+           SKILL CSS START
+==================================*/
+
+.single_skill{
+    padding-bottom: 100px;
+}
+.single_skill .card .card-body .card-title{
+    color: #222222;
+    font-size: 20px;
+    font-weight: 700;
+}
+.single_skill .card .card-body .card-text{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+}
+.single_skill .card .card-body .btn{
+    padding: 0;
+    color: #444444;
+    font-size: 13px;
+    font-weight: 700;
+}
+.single_skill .card .card-body .btn i{
+    padding-left: 5px;
+}
+
+
+
+/*================================
+           SKILL CSS END
+==================================*/
+
+
+
+
+
+
+/*=================================
+        SERVICES CSS START
+===================================*/
+
+.service_area{
+    background: #f6f6f6;
+    padding-bottom: 120px;
+}
+
+.single_service .card{
+    border: 0;
+}
+
+.single_service .card .card-body{
+    padding: 0 34px;
+}
+
+.single_service .card .card-body i{
+    margin-top: 52px;
+    color: #f26957;
+    font-size: 40px;
+}
+.single_service .card .card-body h5{
+    margin-top: 18px;
+    font-size: 19px;
+    color: #000;
+    font-weight: 700;
+}
+.single_service .card .card-body p{
+    color: #666666;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 22px;
+    margin-bottom: 50px;
+}
+
+
+.single_service .card .card-body{
+    transition: all .1s linear;    
+}
+
+.single_service .card:hover > .card-body{
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/*=================================
+        SERVICES CSS START
+===================================*/
+
+
+
+
+/*==================================
+            WORK CSS START
+====================================*/
+
+.work_area{
+    padding-bottom: 140px;
+}
+
+.work_area .area_header .row .col-lg-6 span{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    color: #878787;
+}
+.work_area .area_header .row .col-lg-6 h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 18px;
+    color: #222222;
+}
+
+.work_buttons{
+    padding-bottom: 8px;
+}
+
+.work_buttons button{
+    background: transparent;
+    border: 0;
+    color: #888888;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.work_buttons button:hover{
+    color: #f26957;
+}
+
+.single_work{
+    position: relative;
+}
+.single_work_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s linear;
+}
+.single_work:hover .single_work_overlay{
+    visibility: visible;
+    opacity: 1; 
+}
+
+/*==================================
+            WORK CSS END
+====================================*/
+
+
+
+
+/*==================================
+         COUNTER CSS START
+====================================*/
+
+.counter_area{
+    background: #333333;
+    padding: 70px 0;
+}
+.counter_area .container .row .col-lg-3 .counter{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.counter_area .container .row .col-lg-3 span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #d8d8d8;
+    margin-bottom: 5px;
+}
+
+.counter_underline{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 2px;
+    background: #f26957;
+}
+
+
+
+
+
+/*==================================
+          COUNTER CSS END
+====================================*/
+
+
+
+
+/*==================================
+          TEAM CSS START
+===================================*/
+
+.team_text{
+    margin-bottom: 10px;
+}
+
+.team_text h3 {
+	color: #222222;
+	font-weight: 400;
+	font-size: 22px;
+	padding-top: 24px;
+	margin-bottom: 0px;
+}
+
+.team_text span{
+    color: #222222;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.team_image{
+    position: relative;
+    margin-top: 10px;
+}
+.team_overlay{
+    transition: all .2s linear;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 , .7);
+}
+
+.team_content .row .col-lg-4:hover .team_image .team_overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.team_overlay p{
+    margin-top: 85%;
+    padding: 0 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.team_icons{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -92%);
+}
+
+.team_icons a{
+    background: #d8d8d8;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 3px;
+    color: #000;
+}
+
+.team_icons a i{
+    font-size: 15px;
+}
+
+.team_icons a:hover{
+    transition: all .2s linear;
+    background: #f26957;
+    color: #fff;
+}
+
+/*==================================
+          TEAM CSS END
+====================================*/
+
+
+/*==================================
+           DESIGN CSS START
+====================================*/
+.design_text{
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+}
+
+.design_header{
+    padding-left: 97px;
+    padding-right: 97px;
+}
+
+.design_header span{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    color: #878787;
+}
+
+.design_header h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    color: #222222;
+}
+
+.design_header p{
+    font-weight: 400;
+    font-size: 14px;
+    /* padding: 0 200px; */
+    color: #666666;
+    margin-bottom: 50px;
+}
+
+
+
+/*==================================
+           DESIGN CSS END
+====================================*/
+
+.news_area{
+    background: #f6f6f6;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.single_news{
+    background: #fff;
+}
+
+
+.single_news_img{}
+.single_news_img img{}
+
+
+.single_news_text{
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.single_news_text h2{
+    color: #222222;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+.single_news_text .blog_info{
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.single_news_text .blog_info .blog_name{}
+.single_news_text .blog_info .blog_name a{
+    color: #f26957;
+}
+
+.single_news_text .blog_info .blog_date{}
+
+.single_news_text .blog_info .blog_comment{}
+.single_news_text .blog_info .blog_comment a{
+    color: #f26957;
+}
+
+
+.single_news_text p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+
+
+
+
+.single_news_underline{
+    height: 1px;
+    width: 100%;
+    background: #dddddd;
+}
+
+.single_news_text .btn{
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+
+
+/*==================================
+           NEWS CSS END
+====================================*/
+
+
+
+/*==================================
+           FOOTER CSS START
+====================================*/
+
+.upper_footer{
+    padding: 100px 0;
+    background: #222222;
+}
+.lower_footer{
+    background: #2e2e2e;
+}
+
+.footer_head{
+    color: #fff;
+}
+
+.footer_left p{
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+
+.footer_social_links a{
+    background: #353333;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 3px;
+    color: #fff;
+}
+
+.footer_social_links a i{
+    font-size: 15px;
+}
+
+.footer_social_links a:hover{
+    transition: all .2s linear;
+    background: #f26957;
+    color: #fff;
+}
+
+.footer_middle{
+    color: #fff;
+}
+
+footer .col-lg-3 h3{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+footer .col-lg-3 p {
+	color: #bdbdbd;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.footer_middle span{
+    font-size: 13px;
+    color: #6d6d6d;
+}
+
+
+.footer_right input{
+    width: 80%;
+    background: #3f3f3f;
+    border: none;
+    font-size: 14px;
+    color: #b6b6b6;
+    padding: 15px;
+    margin-top: 20px;
+}
+.footer_right button{
+    width: 18%;
+    padding: 13px;
+    border: none;
+    color: #b6b6b6;
+    background: #3f3f3f;
+}
+
+
+.copyright_footer .col p {
+	color: #bdbdbd;
+	margin-bottom: 0;
+	padding: 25px 0;
+}
+
+.copyright_footer .col p a{
+    color: #f26957;   
+}
+
+
+
+
+/*==================================
+           FOOTER CSS END
+====================================*/
+
+

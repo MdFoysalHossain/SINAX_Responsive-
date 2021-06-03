@@ -1,0 +1,228 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .design_header {
+        padding: 0 97px;
+        margin: 0;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /* Team Area Start */
+    .team_overlay p {
+        margin-top: 82%;
+    }
+
+    .team_icons a {
+        margin: 0 1px;
+    }
+    /* Team Area End */
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    /* Navbar Start */
+    .main_navbar {
+        padding: 30px;
+    }
+
+    .navbar-toggler {
+        color: #f1f1f1 !important;
+        font-size: 24px;
+        border: none;
+    }
+
+    .toggle_bars {
+        display: none;
+    }
+
+    .main_navbar .navbar-nav .nav-item .nav-link {
+        padding: 9px 15px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    /* Navbar End */
+
+    /* Bannar Start */
+    .slider_content {
+        padding-top: 165px;
+        padding-bottom: 70px;
+    }
+
+    .banner_area .left_slide_btn {
+        margin-right: 50px;
+    }
+
+    .banner_area .right_slide_btn {
+        margin-left: 50px;
+    }
+    /* Bannar End */
+
+    
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* Navbar Start */
+    .main_navbar {
+        padding: 30px;
+    }
+
+    .navbar-toggler {
+        color: #f1f1f1 !important;
+        font-size: 24px;
+        border: none;
+    }
+
+    .toggle_bars {
+        display: none;
+    }
+
+    .main_navbar .navbar-nav .nav-item .nav-link {
+        padding: 9px 15px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    /* Navbar End */
+
+    /* Bannar Start */
+    .slider_content {
+        padding-top: 165px;
+        padding-bottom: 70px;
+    }
+
+    .banner_area .left_slide_btn {
+        margin-right: 50px;
+    }
+
+    .banner_area .right_slide_btn {
+        margin-left: 50px;
+    }
+
+    .slider_content h1 {
+        font-size: 60px;
+    }
+
+    .team_overlay p {
+        margin-top: 96%;
+    }
+    /* Bannar End */
+
+    .single_news{
+        margin: 0 25px;
+    }
+
+    /* Work Area Start */
+    .area_header {
+        text-align: center;
+    }
+    /* Work Area End */
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* Common Css Start */
+    .theme_button {
+        font-size: 12px;
+        padding: 9px 28px;
+    }
+    /* Common Css End */
+
+
+
+
+    /* Navbar Start */
+    .main_navbar {
+        padding: 20px;
+    }
+
+    .navbar-toggler {
+        color: #f1f1f1 !important;
+        font-size: 24px;
+        border: none;
+    }
+
+    .toggle_bars {
+        display: none;
+    }
+
+    .main_navbar .navbar-nav .nav-item .nav-link {
+        padding: 9px 15px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    /* Navbar End */
+
+    /* Bannar Start */
+    .slider_content {
+        padding-top: 165px;
+        padding-bottom: 70px;
+    }
+
+    .banner_area .left_slide_btn {
+        margin-right: 18px;
+    }
+
+    .banner_area .right_slide_btn {
+        margin-left: 18px;
+    }
+
+    .banner_area .left_slide_btn i {
+        font-size: 45px;
+    }
+
+    .banner_area .right_slide_btn i {
+        font-size: 45px;
+    }
+
+    .slider_content h4 {
+        font-size: 14px;
+        padding-bottom: 4px;
+    }
+
+    .slider_content h1 {
+        font-size: 36px;
+        padding-bottom: 5px;
+    }
+
+    .team_overlay p {
+        margin-top: 83%;
+    }
+
+    .team_icons a {
+        margin: 0px 1px;
+    }
+    /* Bannar End */
+
+    .single_news{
+        margin: 0 0;
+    }
+
+    /* Work Area Start */
+    .area_header {
+        text-align: center;
+    }
+
+    .work_buttons button {
+        margin-right: 15px;
+    }
+    /* Work Area End */
+
+    /* Design Area Start */
+    .design_header {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .design_header p {
+        margin-bottom: 20px;
+    }
+    /* Design Area End */
+}
+
+
+
+
+
